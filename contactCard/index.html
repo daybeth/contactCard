@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script  src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<title>Contact Card</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="form">
+			<h1>Add Contact</h1>
+			<form id="contactForm" action="#">
+				<p>First Name: <input id="name" name="firstname" type="text" placeholder="First Name"></p>
+				<p>Last Name: <input id="lastname" name="lastname" type="text" placeholder="Last Name"></p>
+				<p>Description</p><textarea id="description" rows="4" cols="30" name="comment" form="form"></textarea>
+				<p><input value="Add Contact" type="submit"></p>
+			</form>
+
+		</div>
+		<div id="contactCardBox">
+			<h1>Contact Cards</h1>
+			<div id="contactCard">
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>

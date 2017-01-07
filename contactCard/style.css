@@ -1,0 +1,45 @@
+#wrapper{
+	margin:0 auto;
+	width: 70%;
+	height: 900px;
+	padding: 30px;
+	border:3px solid grey;
+	font-family: arial;
+	color: #696969;
+}
+h1{
+	color: #008B8B;
+
+}
+#form{
+	display: inline-block;
+	width: 35%;
+}
+#description{
+	height: 200px;
+
+}
+#contactCardBox{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	height: 900px;
+	border-left :2px solid grey;
+	padding-left:20px;	
+}
+.card{
+	width: 300px;
+	height: 150px;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid grey;
+}
+.aboutThis{
+        height: 50px;
+        max-width:350px;
+        border: 1px solid grey;
+        padding: 5px;
+        margin: 5px;
+        white-space: pre-line;
+}
